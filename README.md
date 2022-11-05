@@ -1,12 +1,15 @@
-# Платформа для блогов
-
-Данный проект создан в рамках обучения Яндекс Практикум:
+# API для платформы блогов
 
 ## Описание
-Платформа для блогов. Возможность загрузки фото, подписка на авторов,
-лента избранных авторов. 
-Django REST framework
+Позволяет делать запросы к базе данных. Поддерживаются все функции
+основного проекта: регистрация пользователей, получение списка постов,
+отдельного поста, создание постов и комментариев, подписки.
+Авторизация по JWT-токенам при помощи Djoser.
 
+## Технологии
+[![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/-Django-464646?style=flat-square&logo=Django)](https://www.djangoproject.com/)
+[![Django REST Framework](https://img.shields.io/badge/-Django%20REST%20Framework-464646?style=flat-square&logo=Django%20REST%20Framework)](https://www.django-rest-framework.org/)
 
 ### Как запустить проект:
 Клонировать репозиторий и перейти в него в командной строке:
@@ -45,7 +48,10 @@ python3 yatube_api/manage.py migrate
 ```
 python3 yatube_api/manage.py runserver
 ```
-URL проекта:
-```
-http://127.0.0.1:8000/
-```
+
+URL проекта:  http://127.0.0.1:8000/
+
+### *Backend by:*
+[Сарвилин Алексей](https://github.com/sarvilin/yatube_REST)
+
+Данный проект создан в рамках обучения Яндекс Практикум

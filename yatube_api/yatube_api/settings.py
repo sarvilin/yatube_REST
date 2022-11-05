@@ -3,7 +3,10 @@ from datetime import timedelta
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = 'hhz7l-ltdismtf@bzyz+rple7*s*w$jak%whj@(@u0eok^f9k4'
+SECRET_KEY = os.getenv(
+    "SECRET_KEY",
+    default='y#=1-&!ss3p$2&%4r^=vbj$!-1jw#l0h-wi=4!-29s^a*!+jet'
+)
 
 DEBUG = True
 
