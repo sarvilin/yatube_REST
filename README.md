@@ -17,7 +17,7 @@
 git clone https://github.com/sarvilin/yatube_REST.git
 ```
 ```
-cd yatube
+cd yatube_REST
 ```
 
 Cоздать и активировать виртуальное окружение:
